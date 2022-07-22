@@ -1,0 +1,261 @@
+.mainContainer {
+  background-color: #202020;
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.mainContainer1 {
+  background-color: #202020;
+  height: 480px;
+  width: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.first {
+  display: flex;
+  margin: 5px;
+}
+.second {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+.companyLogo {
+  margin-top: 10px;
+  height: 80px;
+  width: 80px;
+}
+.link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  padding-left: 20px;
+}
+.rating-container {
+  display: flex;
+
+  border-radius: 6px;
+  padding: 6px 16px;
+}
+
+.rating {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 4px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.star {
+  height: 20px;
+  width: 20px;
+  margin-bottom: 3px;
+  color: #fbbf24;
+
+  margin-right: 10px;
+}
+.location {
+  height: 30px;
+  width: 30px;
+  margin-bottom: 3px;
+  color: #ffffff;
+
+  margin-right: 10px;
+}
+
+.suitcase {
+  height: 30px;
+  width: 30px;
+  margin-bottom: 3px;
+  color: #ffffff;
+
+  margin-right: 10px;
+}
+.locationPara {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 4px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.locationPara1 {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 4px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.package {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.line {
+  width: 95%;
+}
+.fourth {
+  display: flex;
+}
+.third {
+  display: flex;
+  justify-content: space-between;
+}
+.fifth {
+  display: flex;
+  flex-direction: column;
+}
+.descriptionHead {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.descriptionPara {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+}
+.skillDescriptionPara {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 800;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+}
+.similarPara {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+}
+
+.skillContainer {
+  display: flex;
+
+  flex-direction: column;
+}
+.sixth {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.anchor {
+  padding-right: 10px;
+  color: #6366f1;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+.listcontainer {
+  list-style-type: none;
+  flex-wrap: wrap;
+  display: flex;
+}
+.list {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.lifeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.lifeImgContainer {
+  display: flex;
+}
+.lifeImg {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: 200px;
+  width: 250px;
+}
+.unList {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.container {
+  background-color: black;
+  min-height: 100vh;
+}
+.similar {
+  margin: 10px;
+}
+
+.failureContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  background-color: #4f46e5;
+  color: #f8fafc;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.head {
+  color: #f8fafc;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+
+.para {
+  color: #f1f5f9;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.img {
+  height: 50px;
+  width: 50px;
+}

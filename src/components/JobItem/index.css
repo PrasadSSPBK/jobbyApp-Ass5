@@ -1,0 +1,116 @@
+.mainContainer {
+  background-color: #202020;
+  height: 200px;
+  width: 600px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.first {
+  display: flex;
+  margin: 5px;
+}
+.second {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+.companyLogo {
+  margin-top: 10px;
+  height: 80px;
+  width: 80px;
+}
+.link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  padding-left: 20px;
+}
+.rating-container {
+  display: flex;
+
+  border-radius: 6px;
+  padding: 6px 16px;
+}
+
+.rating {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 4px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.star {
+  height: 20px;
+  width: 20px;
+  margin-bottom: 3px;
+  color: #fbbf24;
+
+  margin-right: 10px;
+}
+.location {
+  height: 20px;
+  width: 20px;
+  margin-bottom: 3px;
+  color: #ffffff;
+
+  margin-right: 10px;
+}
+
+.locationPara {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 4px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.package {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.line {
+  width: 95%;
+}
+.fourth {
+  display: flex;
+}
+.third {
+  display: flex;
+  justify-content: space-between;
+}
+.fifth {
+  display: flex;
+  flex-direction: column;
+}
+.descriptionHead {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.descriptionPara {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+}

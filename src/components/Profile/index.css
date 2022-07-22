@@ -1,0 +1,53 @@
+.profileContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  height: 200px;
+  width: 400px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.head {
+  color: #6366f1;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.para {
+  color: #2c364c;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.profile {
+  height: 50px;
+  width: 50px;
+}
+button {
+  background-color: #4f46e5;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #f8fafc;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Roboto';
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  height: 200px;
+  width: 400px;
+}
